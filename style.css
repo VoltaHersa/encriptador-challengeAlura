@@ -1,0 +1,131 @@
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+body{
+    background: #E5E5E5;
+}
+#texto-ingresado{
+    position: absolute;
+    left: 240px;
+    top: 168px;
+    border: none;
+    background: #E5E5E5;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 150%;
+    
+}
+.derecha{
+    position: absolute;
+    left: 1032px; 
+    top: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 400px;
+    height: 944px;
+    background: white;
+    border-radius: 32px;
+}
+.agrupar{
+    margin: 243px 32px;
+}
+.ningun-mensaje{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 120%;
+    color: #343A40;
+}
+.ingrese-mensaje{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #495057;
+}
+.especial{
+    position: absolute;
+    top: 852px;
+    left: 240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
+.botones{
+    position: absolute;
+    display: inline-flex;
+    text-align: center;
+    top: 885px;
+    left: 240px;
+}
+#encriptar{
+    padding: 24px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+    margin: 0 24px 0 0;
+    width: 328px;
+    font-size: 18px;
+}
+#desencriptar{
+    padding: 24px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    width: 328px;
+}
+#derecha-2{
+    display: none;
+    
+}
+.textoCopia{
+    position: relative;
+    border: none;
+    width: 336px;
+    height: 781px;
+    left: 1032px;
+    top: 40px;
+    margin: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+.textoCopia:focus{
+    outline: none;
+}
+.textoCopia::-moz-selection{
+    background-color: transparent;
+}
+.textoCopia::selection{
+    background-color: transparent;
+}
+.copiar-texto{
+    margin: 32px;
+}
+#boton-copiar{
+    position: absolute;
+    left: 1032px;
+    top: 885px;
+    padding: 24px;
+    margin-left: 32px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    width: 336px;
+}

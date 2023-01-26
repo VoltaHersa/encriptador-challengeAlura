@@ -1,0 +1,11 @@
+<section>
+                <svg width="400px" height="944px" class="rectangulo"><rect/></svg>
+            </section>
+
+
+<ul class="botones">
+                    <li class="encriptar">Encriptar</li>
+                    <li class="desencriptar">Desencriptar</li>
+                </ul>
+
+<input type="text" required placeholder="Inserte el texto aquí" class="texto-ingresado">

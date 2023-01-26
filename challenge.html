@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html long="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <img src="imagenes/Logo.png" class="logo">
+            </section>
+            <section>
+                 <textarea id="texto-ingresado" rows="10" cols="35"  placeholder="Inserte el texto aquí"></textarea>
+            </section>
+            <section class="derecha">
+                <div class="agrupar">
+                    <img src="imagenes/Muñeco.png" class="muñeco">
+                    <p class="ningun-mensaje">Ningún mensaje fue encontrado</p>
+                    <p class="ingrese-mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>     
+            </section>
+            <section>
+                <div class="especial">
+                  <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                  </svg> Solo letras minúsculas y sin acentos</p>
+                </div>
+                
+                <div class="botones">
+                    <button  id="encriptar">Encriptar</button>
+                    <button  id="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            <section id="derecha-2">
+                <textarea  readonly id="textoIncriptado" class="textoCopia"></textarea>
+                
+                    <button  id="boton-copiar">Copiar</button>
+                
+            </section>
+        </main>
+        <script src="logica.js"></script>
+    </body>
+</html>

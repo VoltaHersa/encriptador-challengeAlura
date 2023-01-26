@@ -1,0 +1,19 @@
+var mensaje = document.getElementById("texto-ingresado"),
+    encriptar = document.getElementById("encriptar"),
+    contador=0;
+
+
+
+function mostrarmensaje()
+{
+    if(contador==0)
+    {
+        //window.alert(mensaje);
+        console.log(mensaje.value);
+        contador=1;
+    
+    }
+    else{contador=0;}
+}
+
+encriptar.onclick = mostrarmensaje;
